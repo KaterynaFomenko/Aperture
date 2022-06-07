@@ -354,8 +354,7 @@ header nav ul li:nth-child(2):after {
     display: flex;
     justify-content: space-between;
     background-color: black;
-    padding-top: 156px;
-    margin: auto;
+
     align-items: center;
 
 }
@@ -378,6 +377,12 @@ header nav ul li:nth-child(2):after {
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
+}
+.container.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
 }
 .star_fall{
     background-color: black;
