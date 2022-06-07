@@ -97,7 +97,7 @@ header nav ul li:nth-child(2):after {
 }
 
 .Aperture_Studios {
-    background-image: url('../Images/IMAGE.svg');
+    background-image: url('../images/IMAGE.svg');
     background-size: cover;
     height: 100vh;
     display: flex;
