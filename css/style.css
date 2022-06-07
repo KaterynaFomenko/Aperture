@@ -472,7 +472,7 @@ header nav ul li:nth-child(2):after {
     display: flex;
     padding-left: 100px;
 }
-.button{
+.button2{
     text-decoration: none;
     font-family: 'Poppins',sans-serif;
     font-style: normal;
@@ -489,7 +489,7 @@ header nav ul li:nth-child(2):after {
 
 
 }
-a::before{
+.thetools a::before{
     content: "";
     background-color: black;
     border-radius: 13px;
