@@ -529,3 +529,6 @@ a::before{
     text-transform: uppercase;
     color: #C0C0C0;
 }
+.image{
+    size: 100%;
+}
