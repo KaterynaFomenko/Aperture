@@ -464,4 +464,68 @@ header nav ul li:nth-child(2):after {
 .list_item_3 li:last-of-type:before {
     background-image: url("../images/icon_04.svg");
     width: 10px;
+
+}
+.thetools{
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    padding-left: 100px;
+}
+.button{
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding:20px 10px 13px 35px;
+
+    display:inline-block;
+    color: black;
+
+
+}
+a::before{
+    content: "";
+    background-color: black;
+    border-radius: 13px;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin-right: 6px;
+
+}
+.tools3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px
+
+}
+.tools2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    max-width: 514px;
+}
+.tools{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
 }
