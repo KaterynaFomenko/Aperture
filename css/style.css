@@ -532,3 +532,98 @@ header nav ul li:nth-child(2):after {
 .image{
     size: 100%;
 }
+.what_we_do{
+    background-color: black;
+    padding: 113px 0  100px;
+}
+.what_we_do h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.what_we_do p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+
+}
+.d-flex_galery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.d-flex_galery .Item{
+    max-width: 576px;
+
+}
+.d-flex_galery .item img{
+    display: block;
+    width: 100%;
+    margin-bottom: 42px;
+}
+.d-flex_galery .Item{
+    max-width: 576px;
+    margin-right: 42px;
+}
+.d-flex_galery .item img{
+    display: block;
+    width: 100%;
+}
+.d-flex_galery .item .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.d-flex_galery .item .description h3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.d-flex_galery .item .description p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.d-flex_galery .item .description a {
+
+    background-color: white;
+    border-radius: 14px;
+    padding: 6px 10px 6px 5px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    display: inline-flex;
+    align-items: center;
+}
+.d-flex_galery .item .description a:before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 6px;
+}
