@@ -468,9 +468,15 @@ header nav ul li:nth-child(2):after {
 }
 .thetools{
     background-color: black;
-    height: 80vh;
+    position: relative;
+    min-height: 540px;
+    overflow: hidden;
     display: flex;
-    padding-left: 100px;
+    align-items: center;
+    padding-left: 30px;
+}
+.container_tools .m_w{
+    max-width: 514px;
 }
 .button2{
     text-decoration: none;
@@ -507,7 +513,8 @@ header nav ul li:nth-child(2):after {
     line-height: 20px;
     color: #FFFFFF;
     padding-top: 40px;
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    max-width: 514px;
 
 }
 .tools2{
@@ -530,14 +537,22 @@ header nav ul li:nth-child(2):after {
     color: #C0C0C0;
 }
 .image{
-    size: 100%;
+    max-width: 720px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.image img{
+    display: block;
+    width: 100%;
 }
 .what_we_do{
     background-color: black;
     padding: 113px 0  100px;
 }
 .what_we_do h2{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -546,7 +561,7 @@ header nav ul li:nth-child(2):after {
     color: #FFFFFF;
 }
 .what_we_do p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -560,6 +575,7 @@ header nav ul li:nth-child(2):after {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
 }
 .d-flex_galery .Item{
     max-width: 576px;
@@ -578,12 +594,14 @@ header nav ul li:nth-child(2):after {
     display: block;
     width: 100%;
 }
-.d-flex_galery .item .description{
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
+/*.description{
+    display: flex;
+    height: 60vh;
+    margin: auto;
+    background-color: black;
+
 }
-.d-flex_galery .item .description h3 {
+.description h3 {
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -593,18 +611,18 @@ header nav ul li:nth-child(2):after {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.d-flex_galery .item .description p{
+.description p{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
-    text-align: left;
+
     margin-bottom: 10px;
 }
-.d-flex_galery .item .description a {
-
+.description a {
+    position: absolute;
     background-color: white;
     border-radius: 14px;
     padding: 6px 10px 6px 5px;
@@ -618,7 +636,7 @@ header nav ul li:nth-child(2):after {
     display: inline-flex;
     align-items: center;
 }
-.d-flex_galery .item .description a:before {
+.description a:before {
     content: "";
     display: inline-block;
     width: 32px;
@@ -626,4 +644,101 @@ header nav ul li:nth-child(2):after {
     background-color: black;
     border-radius: 50%;
     margin-right: 6px;
+
+}*/
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+}
+footer .left_item a{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+footer .left_item p{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+footer{
+    background-color: black;
+    padding-top: 92px;
+    padding-bottom: 104px ;
+}
+footer .right_item{
+    display: flex;
+}
+footer .right_item li{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .right_item a{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+
+}
+footer .right_item ul:first-of-type{
+    margin-right: 55px;
+}
+.flex_container{
+    border-bottom: solid 2px #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .flex_container:last-of-type{
+    border-bottom: none;
+}
+
+footer .form{
+    background: #FFFFFF;
+    padding: 11px 6px;
+    border: none;
+    border-radius: 11px;
+    align-items: center;
+    padding-left: 246px;
+    padding-right: 5px;
+    margin-bottom: 11px;
+
+
+}
+.button3{
+    align-items: center;
+    background: black;
+    width: 63px;
+    height: 30px;
+    border-radius: 11px;
+
+
+}
+footer .input{
+    border: none;
+    background: transparent;
+    padding-top: 11px;
+
+}
+footer .social {
+    display: flex;
+    justify-content: space-between;
+
+
 }
