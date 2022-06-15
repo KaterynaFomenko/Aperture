@@ -1,0 +1,15 @@
+
+@media only screen and (max-width: 768px) {
+ header{
+    background-color: aqua;
+    padding: 0 15px;
+
+
+}
+    .Aperture_Studios h3{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 414px) {
+
+}
