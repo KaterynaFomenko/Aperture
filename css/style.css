@@ -507,7 +507,7 @@ header nav ul li:nth-child(2):after {
     width: 100%;
 }
 .container_tools .m_w{
-    max-width: 514px;
+    max-width: 100%px;
 }
 .button2{
     text-decoration: none;
@@ -545,7 +545,7 @@ header nav ul li:nth-child(2):after {
     color: #FFFFFF;
     padding-top: 40px;
     padding-bottom: 40px;
-    max-width: 514px;
+    width: 100%;
 
 }
 .tools2{
@@ -555,7 +555,7 @@ header nav ul li:nth-child(2):after {
     font-size: 28px;
     line-height: 32px;
     color: #FFFFFF;
-    max-width: 514px;
+    width: 100%;
 }
 .tools{
     font-family: 'Poppins',sans-serif;
@@ -568,7 +568,9 @@ header nav ul li:nth-child(2):after {
     color: #C0C0C0;
 }
 .image{
-    max-width: 720px;
+
+    display: block;
+    width: 100%;
     position: absolute;
     right: 0;
     top: 0;
@@ -613,7 +615,8 @@ header nav ul li:nth-child(2):after {
     position: relative;
 }
 .d-flex_galery .Item{
-    max-width: 576px;
+    width: 100%;
+    display: block;
 
 }
 .d-flex_galery .item img{
@@ -622,7 +625,8 @@ header nav ul li:nth-child(2):after {
     margin-bottom: 42px;
 }
 .d-flex_galery .Item{
-    max-width: 576px;
+    display: block;
+    width: 100%;
     margin-right: 42px;
 }
 .d-flex_galery .item img{
