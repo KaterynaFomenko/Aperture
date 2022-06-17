@@ -124,30 +124,7 @@ header nav ul li:nth-child(2):after {
     color: #C0C0C0;
     margin: 0;
 }
-.container h3 {
-    position: relative;
-   animation: h3animation 3s infinite;
-}
-@keyframes h3animation {
-    0% {
-        letter-spacing: 1px;
-    }
-    20% {
-        letter-spacing: 2px;
-    }
-    50% {
-        letter-spacing: 5px;
-    }
-    70% {
-        letter-spacing: 3px;
-    }
-    90% {
-        letter-spacing: 2px;
-    }
-    100% {
-        letter-spacing: 1px;
-    }
-}
+
 .Aperture_Studios h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -217,7 +194,7 @@ header nav ul li:nth-child(2):after {
 }
 
 
-.sunset .container2 {
+.sunset .container {
     margin: inherit;
     max-width: 580px;
     text-align: center;
@@ -226,15 +203,19 @@ header nav ul li:nth-child(2):after {
 }
 
 }
-.sunset  h3{
+.sunset h3{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    text-transform: revert;
+    color: #C0C0C0;
+    margin: 0;
+    text-align: left;
+    justify-content: inherit;
+    margin-right: 62px;
 
 
 }
@@ -299,7 +280,7 @@ header nav ul li:nth-child(2):after {
     text-align: end;
     position: relative;
 }
-.gear_cage .container3 {
+.gear_cage .container {
     margin: inherit;
     max-width: 580px;
     text-align: center;
@@ -376,7 +357,7 @@ header nav ul li:nth-child(2):after {
     margin: auto;
     background-color: black;
 }
-.p-clients.container4{
+.p-clients.container{
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -420,7 +401,7 @@ header nav ul li:nth-child(2):after {
     text-align: end;
     position: relative;
 }
-.star_fall .container5 {
+.star_fall .container {
     margin: inherit;
     max-width: 580px;
     text-align: center;
@@ -507,7 +488,7 @@ header nav ul li:nth-child(2):after {
     width: 100%;
 }
 .container_tools .m_w{
-    max-width: 100%px;
+    max-width: 514px;
 }
 .button2{
     text-decoration: none;
@@ -545,7 +526,7 @@ header nav ul li:nth-child(2):after {
     color: #FFFFFF;
     padding-top: 40px;
     padding-bottom: 40px;
-    width: 100%;
+    max-width: 514px;
 
 }
 .tools2{
@@ -555,7 +536,7 @@ header nav ul li:nth-child(2):after {
     font-size: 28px;
     line-height: 32px;
     color: #FFFFFF;
-    width: 100%;
+    max-width: 514px;
 }
 .tools{
     font-family: 'Poppins',sans-serif;
@@ -568,9 +549,7 @@ header nav ul li:nth-child(2):after {
     color: #C0C0C0;
 }
 .image{
-
-    display: block;
-    width: 100%;
+    max-width: 720px;
     position: absolute;
     right: 0;
     top: 0;
@@ -583,10 +562,6 @@ header nav ul li:nth-child(2):after {
 .what_we_do{
     background-color: black;
     padding: 113px 0  100px;
-}
-.what_we_do.container{
-    display: flex;
-    justify-content: space-between;
 }
 .what_we_do h2{
     font-family: 'Poppins', sans-serif;
@@ -615,8 +590,7 @@ header nav ul li:nth-child(2):after {
     position: relative;
 }
 .d-flex_galery .Item{
-    width: 100%;
-    display: block;
+    max-width: 576px;
 
 }
 .d-flex_galery .item img{
@@ -625,51 +599,41 @@ header nav ul li:nth-child(2):after {
     margin-bottom: 42px;
 }
 .d-flex_galery .Item{
-    display: block;
-    width: 100%;
+    max-width: 576px;
     margin-right: 42px;
 }
 .d-flex_galery .item img{
     display: block;
     width: 100%;
 }
-.description{
+/*.description{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    height: 70vh;
-}
-.description .container6{
+    height: 60vh;
     margin: auto;
-    position: relative;
-    max-width: 541px;
+    background-color: black;
+
 }
-.description .container6 h3 {
+.description h3 {
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 15px;
-    text-align: center;
-
 }
 .description p{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
     color: #C0C0C0;
 
+    margin-bottom: 10px;
 }
-.description .container6 a {
-   margin: auto;
+.description a {
     position: absolute;
     background-color: white;
     border-radius: 14px;
@@ -681,11 +645,8 @@ header nav ul li:nth-child(2):after {
     line-height: 20px;
     letter-spacing: 0.4px;
     color: #000000;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    margin-left: 200px;
-    margin-top: 30px;
-
 }
 .description a:before {
     content: "";
@@ -696,7 +657,7 @@ header nav ul li:nth-child(2):after {
     border-radius: 50%;
     margin-right: 6px;
 
-}
+}*/
 .flex_container{
     display: flex;
     justify-content: space-between;
