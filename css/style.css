@@ -124,7 +124,30 @@ header nav ul li:nth-child(2):after {
     color: #C0C0C0;
     margin: 0;
 }
-
+.container h3 {
+    position: relative;
+   animation: h3animation 3s infinite;
+}
+@keyframes h3animation {
+    0% {
+        letter-spacing: 1px;
+    }
+    20% {
+        letter-spacing: 2px;
+    }
+    50% {
+        letter-spacing: 5px;
+    }
+    70% {
+        letter-spacing: 3px;
+    }
+    90% {
+        letter-spacing: 2px;
+    }
+    100% {
+        letter-spacing: 1px;
+    }
+}
 .Aperture_Studios h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -194,7 +217,7 @@ header nav ul li:nth-child(2):after {
 }
 
 
-.sunset .container {
+.sunset .container2 {
     margin: inherit;
     max-width: 580px;
     text-align: center;
@@ -203,19 +226,15 @@ header nav ul li:nth-child(2):after {
 }
 
 }
-.sunset h3{
+.sunset  h3{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
-    text-transform: revert;
-    color: #C0C0C0;
-    margin: 0;
-    text-align: left;
-    justify-content: inherit;
-    margin-right: 62px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 
 
 }
@@ -280,7 +299,7 @@ header nav ul li:nth-child(2):after {
     text-align: end;
     position: relative;
 }
-.gear_cage .container {
+.gear_cage .container3 {
     margin: inherit;
     max-width: 580px;
     text-align: center;
@@ -357,7 +376,7 @@ header nav ul li:nth-child(2):after {
     margin: auto;
     background-color: black;
 }
-.p-clients.container{
+.p-clients.container4{
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -401,7 +420,7 @@ header nav ul li:nth-child(2):after {
     text-align: end;
     position: relative;
 }
-.star_fall .container {
+.star_fall .container5 {
     margin: inherit;
     max-width: 580px;
     text-align: center;
@@ -563,6 +582,10 @@ header nav ul li:nth-child(2):after {
     background-color: black;
     padding: 113px 0  100px;
 }
+.what_we_do.container{
+    display: flex;
+    justify-content: space-between;
+}
 .what_we_do h2{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -606,34 +629,43 @@ header nav ul li:nth-child(2):after {
     display: block;
     width: 100%;
 }
-/*.description{
+.description{
     display: flex;
-    height: 60vh;
-    margin: auto;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
-
+    height: 70vh;
 }
-.description h3 {
+.description .container6{
+    margin: auto;
+    position: relative;
+    max-width: 541px;
+}
+.description .container6 h3 {
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 30px;
+    line-height: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-bottom: 15px;
+    text-align: center;
+
 }
 .description p{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
     color: #C0C0C0;
 
-    margin-bottom: 10px;
 }
-.description a {
+.description .container6 a {
+   margin: auto;
     position: absolute;
     background-color: white;
     border-radius: 14px;
@@ -645,8 +677,11 @@ header nav ul li:nth-child(2):after {
     line-height: 20px;
     letter-spacing: 0.4px;
     color: #000000;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    margin-left: 200px;
+    margin-top: 30px;
+
 }
 .description a:before {
     content: "";
@@ -657,7 +692,7 @@ header nav ul li:nth-child(2):after {
     border-radius: 50%;
     margin-right: 6px;
 
-}*/
+}
 .flex_container{
     display: flex;
     justify-content: space-between;

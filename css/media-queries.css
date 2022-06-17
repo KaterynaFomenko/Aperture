@@ -1,14 +1,48 @@
 
 @media only screen and (max-width: 768px) {
- header{
-    background-color: aqua;
-    padding: 0 15px;
+    header {
+
+        padding: 0 5 px;
+
+    }
+    header nav{
+        margin-right:15px;
+    }
+    header nav li{
+        margin-right: 5px;
+        margin-right: 5px;
+
+    }
+    header nav ul{
+        font-size: 8px;
+        line-height: 10px;
+
+    }
+    header a{
+        font-size: 8px;
+    }
+.what_we_do.container{
+    padding-top: 100px;
+    justify-content: center;
+}
+.d-flex_galery {
+   justify-content: center;
+    display: flex;
 
 
 }
-    .Aperture_Studios h3{
-        padding: 10px;
-    }
+.container_tools{
+display: flex;
+    justify-content: center;
+}
+.p-clients{
+    padding:  15 px;
+    height: 100%;
+
+}
+}
+footer{
+    padding: 0 15px;
 }
 @media only screen and (max-width: 414px) {
 
